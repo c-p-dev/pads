@@ -1,0 +1,61 @@
+
+// backgrounds
+$navbar-pink:#B3628A;
+$main-background: #F686BD;
+$light-pink:#F4BBD3;
+$light-pink2: #F1E4F3;
+$white: #fff;
+$black: #000000;
+$shadow-black: #8c8282;
+
+//Text
+
+body {
+    background: $light-pink;
+}
+
+
+.card{
+    box-shadow: 15px 15px 5px 0px $shadow-black;
+    margin: 120px auto;
+    max-width: 380px;
+}
+
+.card-header{
+    background: $light-pink2;
+    color: $light-pink;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+// buttons
+.btn-primary{
+    background: $navbar-pink;
+    color:$white;
+    border:none;
+    &:hover, &:active, &:focus, &:not(:disabled):not(.disabled):active{
+        border: none;    
+        background:$light-pink2;
+        color: $navbar-pink;
+
+    }
+}
+
+.form-control{
+    border-radius: 0;
+    border: 1px solid #707070;
+    padding:10px;
+
+    &:focus {
+        border-color: $main-background;
+        box-shadow: 0 0 0 0.2rem rgba(246,134,189,0.25);
+    }
+}
+a{
+    color:$navbar-pink;
+    &:hover{
+        color:$light-pink;
+
+    }
+}
