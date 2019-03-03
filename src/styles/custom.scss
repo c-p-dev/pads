@@ -8,10 +8,12 @@ $white: #fff;
 $black: #000000;
 $shadow-black: #8c8282;
 
+
 //Text
 
 body {
-    background: $light-pink;
+    // background: $light-pink;
+    background-image: url(/src/sample_background_texture.png);
 }
 
 

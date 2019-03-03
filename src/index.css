@@ -12,3 +12,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  /* // background: $light-pink; */
+  /* background-image: url(./assets/sample_background_texture3.png); */
+}
